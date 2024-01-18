@@ -56,15 +56,15 @@ class GlobalData{
          link: "https://www.mxplayer.in/"),
      GlobalSvData(
          name: "Netflix",
-         image: "assets/img/Netflix.jpg",
+         image: "assets/img/Netflix.png",
          link: "https://www.netflix.com/in/"),
      GlobalSvData(
          name: "Sony",
-         image: "assets/img/sony.jpeg",
+         image: "assets/img/sony.jpg",
          link: "https://www.sonyliv.com/"),
      GlobalSvData(
          name: "Hulu",
-         image: "assets/img/hulu.jpg",
+         image: "assets/img/hulu.png",
          link: "https://www.hulu.com/welcome?orig_referrer=https%3A%2F%2Fwww.google.com%2F"),
      GlobalSvData(
          name: "You-Tube",

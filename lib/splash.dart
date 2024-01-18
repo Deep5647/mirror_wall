@@ -28,16 +28,10 @@ class _splState extends State<spl> {
           width: double.infinity,
 
           decoration: const BoxDecoration(
-            image:DecorationImage(image: AssetImage('assets/img/world.jpg'),
+            image:DecorationImage(image: AssetImage('assets/img/world.png'),
             ),
           ),
-          child:  const Center(
-            child:  Text(
-              "Technology World",
-              style: TextStyle(
-                  color: Colors.white, fontSize: 30, letterSpacing: 2),
-            ),
-          ),
+
         ),
 
 

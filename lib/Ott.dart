@@ -14,8 +14,8 @@ class OttApp extends StatelessWidget {
       body: Container(
         child: GridView(
           gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-            crossAxisCount: 1,
-            childAspectRatio: 7/8,
+            crossAxisCount: 2,
+            childAspectRatio: 3/4,
             mainAxisSpacing: 8,
             crossAxisSpacing: 8,
           ),
@@ -46,17 +46,21 @@ class OttApp extends StatelessWidget {
                           child: Image.asset(e.image),
                         ),
                       ),
-                      Expanded(
-                        flex: 1,
-                        child: Padding(
-                          padding: const EdgeInsets.all(10),
-                          child: Container(
-                            child : Text(
-                              e.name,
-                              textAlign: TextAlign.center,
-                              style: const TextStyle(
-                                  fontSize: 16,
-                                  fontWeight: FontWeight.bold),
+                      Container(
+                        width: double.infinity,
+                        color: Colors.grey,
+                        child: Expanded(
+                          flex: 1,
+                          child: Padding(
+                            padding: const EdgeInsets.all(10),
+                            child: Container(
+                              child : Text(
+                                e.name,
+                                textAlign: TextAlign.center,
+                                style: const TextStyle(
+                                    fontSize: 16,
+                                    fontWeight: FontWeight.bold),
+                              ),
                             ),
                           ),
                         ),

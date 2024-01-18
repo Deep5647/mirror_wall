@@ -14,8 +14,8 @@ class Education extends StatelessWidget {
       body: Container(
         child: GridView(
           gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-            crossAxisCount: 1,
-            childAspectRatio: 7/8,
+            crossAxisCount: 2,
+            childAspectRatio: 3/4,
             mainAxisSpacing: 8,
             crossAxisSpacing: 8,
           ),
@@ -47,20 +47,23 @@ class Education extends StatelessWidget {
 
                               ),
                             ),
-                            Expanded(
-                              flex: 1,
-                              child: Padding(
-                                padding: const EdgeInsets.all(10),
-                                child: Container(
-                                  width: double.infinity,
-                                  child: Text(
-                                    e.name,
-                                    textAlign: TextAlign.center,
-                                    style: TextStyle(
-                                        fontSize: 30,
-                                        fontWeight: FontWeight.bold),
-                                  ),
+                            Container(
+                              color: Colors.grey,
+                              child: Expanded(
+                                flex: 1,
+                                child: Padding(
+                                  padding: const EdgeInsets.all(10),
+                                  child: Container(
+                                    width: double.infinity,
+                                    child: Text(
+                                      e.name,
+                                      textAlign: TextAlign.center,
+                                      style: TextStyle(
+                                          fontSize: 16,
+                                          fontWeight: FontWeight.bold),
+                                    ),
 
+                                  ),
                                 ),
                               ),
                             ),
